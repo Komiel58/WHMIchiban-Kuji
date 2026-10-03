@@ -7,7 +7,7 @@ const prizes = [
   { rank: '5等', name: 'バッチ', count: 50 }
 ];
 
-// パスコードは config.js から読み込み
+const STAFF_PASSWORD = '1234'; // 必要に応じて変更
 
 // 在庫管理
 function getStock() {
@@ -175,7 +175,7 @@ document.getElementById('cancelBtn').onclick = () => {
 };
 
 document.getElementById('exchangeBtn').onclick = () => {
-  if (document.getElementById('pass').value !== CONFIG.STAFF_PASSWORD) {
+  if (document.getElementById('pass').value !== STAFF_PASSWORD) {
     document.getElementById('error').textContent = 'パスコードが違います';
     return;
   }

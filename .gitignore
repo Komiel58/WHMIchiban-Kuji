@@ -1,0 +1,6 @@
+# 設定ファイル（機密情報を含むためgitにコミットしない）
+config.js
+
+# その他
+node_modules/
+.DS_Store

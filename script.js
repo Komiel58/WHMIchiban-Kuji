@@ -3,11 +3,11 @@ const prizes = [
   { rank: '1等', name: 'ぬいぐるみ', count: 1 },
   { rank: '2等', name: 'アクリルスタンド', count: 10 },
   { rank: '3等', name: 'キーホルダー', count: 20 },
-  { rank: '4等', name: 'ステッカー', count: 30 },
-  { rank: '5等', name: 'バッチ', count: 50 }
+  { rank: '4等', name: 'バッチ', count: 40 },
+  { rank: '5等', name: 'ステッカー', count: 50 }
 ];
 
-const STAFF_PASSWORD = '1234'; // 必要に応じて変更
+const STAFF_PASSWORD = '1017'; // 必要に応じて変更
 
 // 在庫管理
 function getStock() {
